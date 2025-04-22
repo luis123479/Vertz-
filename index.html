@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VERTZ - Estilo e Performance</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #0f0f0f;
+      color: #fff;
+    }
+    header {
+      background: #121212;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: #00ffae;
+      font-size: 2.5rem;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #ccc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #00ffae;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(145deg, #0f0f0f, #1c1c1c);
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      color: #bbb;
+      font-size: 1.1rem;
+    }
+    .about, .purpose {
+      padding: 40px 20px;
+      background: #1c1c1c;
+    }
+    .about h3, .purpose h3 {
+      color: #00ffae;
+    }
+    .products {
+      padding: 40px 20px;
+      background: #111;
+    }
+    .products h3 {
+      color: #00ffae;
+      text-align: center;
+    }
+    .vitrine {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .produto {
+      background: #1e1e1e;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .produto img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .produto h4 {
+      margin: 10px 0 5px;
+    }
+    .produto p {
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #121212;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>VERTZ</h1>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#proposito">Propósito</a>
+      <a href="#produtos">Vitrine</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Estilo e Performance em Cada Detalhe</h2>
+    <p>Moda que acompanha o seu ritmo e valoriza sua identidade.</p>
+  </section>
+
+  <section class="about" id="sobre">
+    <h3>Sobre a VERTZ</h3>
+    <p>A VERTZ nasceu da fusão entre atitude, elegância e desempenho. Criamos roupas para quem vive intensamente, treina com foco e se expressa com autenticidade em qualquer ambiente. Nossa essência é entregar confiança em forma de estilo.</p>
+  </section>
+
+  <section class="purpose" id="proposito">
+    <h3>Nosso Propósito</h3>
+    <p>Unimos moda casual, social e esportiva em uma só marca. Queremos inspirar transformação através da imagem, mostrando que é possível ter performance sem abrir mão do estilo. A VERTZ existe para quem busca evoluir por fora e por dentro.</p>
+  </section>
+
+  <section class="products" id="produtos">
+    <h3>Vitrine VERTZ</h3>
+    <div class="vitrine">
+      <div class="produto">
+        <img src="https://via.placeholder.com/300x400?text=Casual+Look" alt="Look Casual">
+        <h4>Look Casual</h4>
+        <p>Conforto e estilo para o dia a dia.</p>
+      </div>
+      <div class="produto">
+        <img src="https://via.placeholder.com/300x400?text=Social+Moderno" alt="Look Social">
+        <h4>Look Social</h4>
+        <p>Sofisticação com identidade marcante.</p>
+      </div>
+      <div class="produto">
+        <img src="https://via.placeholder.com/300x400?text=Esportivo+Funcional" alt="Look Esportivo">
+        <h4>Look Esportivo</h4>
+        <p>Desempenho e mobilidade sem perder o estilo.</p>
+      </div>
+      <div class="produto">
+        <img src="https://via.placeholder.com/300x400?text=Academia+DryFit" alt="Academia">
+        <h4>Camiseta DryFit</h4>
+        <p>Ideal para treinos intensos com conforto térmico.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 VERTZ. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
